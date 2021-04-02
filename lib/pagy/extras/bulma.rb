@@ -23,7 +23,7 @@ class Pagy
                 end
       end
       html << '</ul>'
-      %(<nav class="pagy-bulma-nav pagination is-centered" role="navigation" aria-label="pagination">#{html}</nav>)
+      %(<nav class="pagy-bulma-nav pagination is-small is-centered" role="navigation" aria-label="pagination">#{html}</nav>)
     end
 
     # Javascript pagination for bulma: it returns a nav and a JSON tag used by the Pagy.nav javascript
